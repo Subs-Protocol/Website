@@ -106,7 +106,7 @@ const stylesFAQ = {
     rowTitleColor: "white",
     rowContentColor: "white",
     // rowContentColor: 'grey',
-    arrowColor: "#4f46e5",
+    arrowColor: "cyan",
 };
 
 const config = {

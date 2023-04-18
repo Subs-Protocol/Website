@@ -29,9 +29,9 @@ const Navbar = () => {
         <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mr-10" href="https://subsprotocol1s-organization.gitbook.io/subs/" target='_blank' rel='noopener noreferrer'> Documentation </a>
         <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mr-10" href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
       </ul>
-
+      <a href="https://app.subsprotocol.com"> 
       <button className="py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"> Get Started</button>
-
+      </a>
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}

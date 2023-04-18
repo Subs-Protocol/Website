@@ -16,7 +16,6 @@ class FAQPage extends Component {
                         
                         <div className={`flex-1  flex-col xl:px-0 sm:mb-12 sm:px-16 px-6`}>
                             
-                            <h2 className="text-base text-xl font-semibold leading-7 text-indigo-600">Something wasn't clear ?</h2>
                             <a href='/front/src/pages/Subs_Protocol_Whitepaper.pdf' target='_blank' rel='noopener noreferrer'> Test</a>
                             <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-gradient ">
                                 Frequently Asked Questions <br className="sm:block hidden" />{" "}
