@@ -26,7 +26,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import extensionLogo from "./extensionLogo.png"
-import personalSubsCopie from "./personalSubs Copie 2.png";
+import personalSubsCopie from "./personalSubsFinal.png";
 import buttonPreview from "./buttonPreview.png";
 import postInstagram from "./postInstagram.jpg";
 import Subs_Protocol_Whitepaper from "./Subs_Protocol_Whitepaper.pdf";
