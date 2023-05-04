@@ -1,7 +1,7 @@
 import styles from "./styles/style";
 import { Navbar, Products, Welcome, Subsproducts, Stats, Feedback, CTA, Footer } from "./Components";
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route } from "react-router-dom";
 import { HomePage, ProductPage, RegulatorPage, FAQPage, UseCasePage, DocsPage, WhitePaperPage } from "./pages"; // RegulatorPage, FAQPage, UseCasePage, DocsPage
 import {PDF} from "./Components";
 
