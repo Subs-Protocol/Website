@@ -34,7 +34,7 @@ const Welcome = () => {
         <p
           className={`${styles.paragraph} justify-center items-center max-w-[470px] mt-5`}
         >
-          Automatic and recurrent payments for your own custodial wallets without blocking funds.
+          Automatic and recurrent payments for self custodial wallets without blocking funds.
         </p>
         <p
           className={`${styles.paragraph} justify-center items-center max-w-[470px]`}
