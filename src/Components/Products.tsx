@@ -30,7 +30,7 @@ const Products = () => {
               Use it on all your projects, no mather the language or framework.
               Contribute to crypto mass adoption.
             </p>
-            <a href="#component">
+            <a href="/#/#component">
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
@@ -59,7 +59,7 @@ const Products = () => {
               Present your product by customizing your page.
               A smart solution for small businesses.
             </p>
-            <a href="#personal">
+            <a href="/#/#personal">
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
@@ -88,7 +88,7 @@ const Products = () => {
               Make it possible thanks to our new extensions.
               A revolutionary way of using social media.
             </p>
-            <a href="#extensions">
+            <a href="/#/#extensions">
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
