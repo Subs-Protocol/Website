@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "../styles/style";
 import { arrowUp, discount, robot } from "../assets";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
+
 const Welcome = () => {
+
   return (
     <section
       id="home"

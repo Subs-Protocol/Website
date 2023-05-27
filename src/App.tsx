@@ -4,11 +4,7 @@ import React from 'react';
 import {HashRouter as Router, Routes, Route } from "react-router-dom";
 import { HomePage, ProductPage, RegulatorPage, FAQPage, UseCasePage, DocsPage, WhitePaperPage } from "./pages"; // RegulatorPage, FAQPage, UseCasePage, DocsPage
 import {PDF} from "./Components";
-import ReactGA from "react-ga";
 
-
-const TRACKING_ID = "G-GKYJ47J79D";
-ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (

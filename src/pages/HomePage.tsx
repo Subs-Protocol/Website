@@ -1,19 +1,11 @@
-import { useState, Component, useEffect } from "react";
+import { useState, Component } from "react";
 import styles from "../styles/style";
 import { Navbar, Products, Welcome, Subsproducts, Stats, Feedback, CTA, Footer } from "../Components";
-import ReactGA from "react-ga";
+
 
 
 class HomePage extends Component {
-
-    
-
     render() {
-
-      useEffect(() => {
-        ReactGA.pageview(window.location.pathname)
-      }, []);
-
     return (
         <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
