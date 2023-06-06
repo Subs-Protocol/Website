@@ -26,10 +26,10 @@ const Welcome = () => {
         <div
           className={`${styles.flexCenter} justify-center items-center w-full`}
         >
-          <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Decentralized Subscription <br className="sm:block hidden" />{" "}
+          <h1 className="">
+            Recurring Crypto  <br className="sm:block hidden" />{" "}
             <span className={`${styles.flexCenter} text-gradient`}>
-              Services
+            Payment Solution
             </span>{" "}
           </h1>
         </div>

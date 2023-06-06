@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <Link to="/">
-      <img src={logo} alt="hoobank" className="w-[124px] " />
+      <img src={logo} alt="hoobank" className=" w-[124px] " />
       </Link>
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -26,13 +26,18 @@ const Navbar = () => {
             <BetterLink to={`${nav.id}`}>{nav.title}</BetterLink>
           </li>
         ))}
+        <li>
         <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mr-10" href="https://subsprotocol1s-organization.gitbook.io/subs/" target='_blank' rel='noopener noreferrer'> Documentation </a>
-        <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mr-10" href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
-      </ul>
-      <a href="https://app.subsprotocol.com"> 
+          </li>
+        <li>
+          <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mr-10" href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
+        </li>
+        </ul>
+
+      <a className="justify-center items-center" href="https://app.subsprotocol.com"> 
       <button className="py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"> Get Started</button>
       </a>
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden inset-y-0 right-0">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -51,12 +56,18 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                } ${index === navLinks.length - 1 ? "mb-4" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <li className= "mb-4">
+            <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mb-4" href="https://subsprotocol1s-organization.gitbook.io/subs/" target='_blank' rel='noopener noreferrer'> Documentation </a>
+            </li>
+            <li>
+            <a className= "text-dimWhite font-poppins font-normal cursor-pointer text-[16px] " href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
+            </li>
           </ul>
         </div>
       </div>

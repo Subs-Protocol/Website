@@ -4,6 +4,8 @@ import { arrowUp, discount, robot } from "../assets";
 import { close, logo, menu, extensionLogo, Subslogo3 } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./Button";
+import { HashLink as BetterLink } from 'react-router-hash-link';
+
 
 const Products = () => {
   return (
@@ -17,8 +19,8 @@ const Products = () => {
         <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-white ">
           Our products <br className="sm:block hidden" />{" "}
         </h1>
-        <div className="flex flex-start mt-20 px-20">
-          <div className="flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+        <div className=" flex-start mt-20 px-20 ">
+          <div className=" mb-4 flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="inline-flex items-center justify-center bg-blue-gradient rounded-full shadow-lg">
             <img src={Subslogo3} alt="hoobank" className="w-[50px] " />
             </span>
@@ -30,17 +32,18 @@ const Products = () => {
               Use it on all your projects, no mather the language or framework.
               Contribute to crypto mass adoption.
             </p>
-            <a href="/#/#component">
+            <BetterLink to={`/#component`}>
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
             >
               Learn more
               
+              
             </button>
-            </a>
+            </BetterLink>
           </div>
-          <div className="flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+          <div className=" mb-4 flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="inline-flex items-center justify-center p-2 bg-blue-gradient rounded-full shadow-lg">
               <svg
                 className="h-6 w-6 text-white"
@@ -59,7 +62,7 @@ const Products = () => {
               Present your product by customizing your page.
               A smart solution for small businesses.
             </p>
-            <a href="/#/#personal">
+            <BetterLink to={`/#personal`}>
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
@@ -67,7 +70,7 @@ const Products = () => {
               Learn more
               
             </button>
-            </a>
+            </BetterLink>
           </div>
           <div className="flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="inline-flex items-center justify-center p-2 bg-blue-gradient rounded-full shadow-lg">
@@ -88,7 +91,8 @@ const Products = () => {
               Make it possible thanks to our new extensions.
               A revolutionary way of using social media.
             </p>
-            <a href="/#/#extensions">
+            <BetterLink to={`/#extensions`}>
+            
             <button
               type="button"
               className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-blue-gradient text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
@@ -96,7 +100,7 @@ const Products = () => {
               Learn more
               
             </button>
-            </a>
+            </BetterLink>
           </div>
         </div>
       </div>
