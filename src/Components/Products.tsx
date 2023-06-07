@@ -14,12 +14,12 @@ const Products = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
-        className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}
+        className={` flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-white ">
           Our products <br className="sm:block hidden" />{" "}
         </h1>
-        <div className=" flex-start mt-20 px-20 ">
+        <div className="flex  mt-20 px-20 ">
           <div className=" mb-4 flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="inline-flex items-center justify-center bg-blue-gradient rounded-full shadow-lg">
             <img src={Subslogo3} alt="hoobank" className="w-[50px] " />
