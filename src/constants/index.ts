@@ -173,7 +173,7 @@ export const footerLinks = [
       },
       {
         name: "Contact us",
-        link: "/form",
+        link: "/#/form",
       },
     ],
   },
