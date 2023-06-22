@@ -44,15 +44,8 @@ const Products = () => {
             </BetterLink>
           </div>
           <div className="  flex flex-col justify-center items-center my-8 lg:my-0 bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
-            <span className="inline-flex items-center justify-center p-2 bg-blue-gradient rounded-full shadow-lg">
-              <svg
-                className="h-6 w-6 text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              ></svg>
+          <span className="inline-flex items-center justify-center bg-blue-gradient rounded-full shadow-lg">
+            <img src={Subslogo3} alt="hoobank" className="w-[50px] " />
             </span>
             <h3 className="text-slate-900 dark:text-white text-center text-[20px] mt-5 text-base font-medium tracking-tight">
               Personal Subs
@@ -73,15 +66,8 @@ const Products = () => {
             </BetterLink>
           </div>
           <div className="flex flex-col justify-center items-center bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
-            <span className="inline-flex items-center justify-center p-2 bg-blue-gradient rounded-full shadow-lg">
-              <svg
-                className="h-6 w-6 text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              ></svg>
+          <span className="inline-flex items-center justify-center bg-blue-gradient rounded-full shadow-lg">
+            <img src={Subslogo3} alt="hoobank" className="w-[50px] " />
             </span>
             <h3 className="text-slate-900 dark:text-white text-center text-[20px] mt-5 text-base font-medium tracking-tight">
               Subs Extensions
@@ -91,7 +77,7 @@ const Products = () => {
               Make it possible thanks to our new extensions.
               A revolutionary way of using social media.
             </p>
-            <BetterLink to={`/#extensions`} className="pt-4">
+            <BetterLink to={`/#extensions`} >
             
             <button
               type="button"
