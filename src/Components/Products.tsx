@@ -43,7 +43,7 @@ const Products = () => {
             </button>
             </BetterLink>
           </div>
-          <div className="  flex flex-col justify-center items-center sm:my-8 bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+          <div className="  flex flex-col justify-center items-center my-8 lg:my-0 bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="inline-flex items-center justify-center p-2 bg-blue-gradient rounded-full shadow-lg">
               <svg
                 className="h-6 w-6 text-white"
