@@ -53,7 +53,7 @@ const MyForm: React.FC = () => {
 
   return (
     <div className={` flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6 `}>
-       <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-white mt-20">
+       <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-secondary mt-20">
           Let's work toghether ! <br className="sm:block hidden" />{" "}
         </h1>
       <div className=" md:flex lg:flex mt-20 px-20  ">
@@ -108,14 +108,12 @@ const MyForm: React.FC = () => {
                 value={formData.email}
                 placeholder="@"
                 onChange={handleChange}
-
               />
             </div>
-
             <div className="flex flex-col justify-center my-10 px-10">
 
             {!isSubmitted ? (
-              <button className="shadow bg-cyan-400 hover:bg-cyan-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+              <button className="shadow bg-secondary focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
                 Send Form
               </button>
             ) : (

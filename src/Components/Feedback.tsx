@@ -9,8 +9,7 @@ const Feedback = () => (
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
-
-    <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-white  ">
+    <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-black  ">
       What People are saying about us
     </h1>
 
