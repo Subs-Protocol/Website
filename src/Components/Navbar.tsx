@@ -38,7 +38,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <a className="justify-center items-center" href="https://app.subsprotocol.com">
+      <a className="justify-center items-center" href="https://app.subsprotocol.com" target="_blank">
         <button className="py-2 px-6 font-poppins font-medium text-[18px] text-white bg-secondary rounded-[10px] outline-none"> Get Started</button>
       </a>
       <div className="sm:hidden inset-y-0 right-0">
