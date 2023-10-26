@@ -6,7 +6,7 @@ import { personalSubsCopie, buttonPreview, postInstagram } from "../assets";
 const Subsproducts = () => {
   return (
     <section
-      id="home"
+      id="integration"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
@@ -20,7 +20,7 @@ const Subsproducts = () => {
             We've made it easy to implement Subs with code or no-code, thanks to our components, personal pages and more.
           </p>
         </div>
-        <h1 id="integration" className="font-poppins text-[22px] mt-8 text-black ">
+        <h1 className="font-poppins text-[22px] mt-8 text-black ">
           Subs Components <br className="sm:block hidden" />{" "}
         </h1>
         <h2 className="text-base font-semibold leading-7 text-indigo-600">Subs in your app</h2>

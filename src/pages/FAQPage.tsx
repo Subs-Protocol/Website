@@ -12,22 +12,21 @@ class FAQPage extends Component {
                     </div>
                 </div>
                 <center>
-                <div className={`bg-primary mt-24 mx-10 ${styles.paddingX} ${styles.flexCenter}`}>
-                    <div className={`${styles.boxWidth}`}>
-                        
+                    <div className={`bg-primary mt-24 mx-10 `}>
+
                         <div className={`flex-1  flex-col xl:px-0 sm:mb-12 sm:px-16 px-6`}>
                             <h1 className="font-poppins font-semibold ss:text-[32px] text-[32px] text-secondary ">
                                 Frequently Asked Questions <br className="sm:block hidden" />{" "}
                             </h1>
                         </div>
 
-                        <div className="mx-28">
+                        <div className="w-[80%]">
                             <FAQ />
+                            <Footer />
+
                         </div>
-                        <Footer />
                     </div>
-                </div>
-                
+
                 </center>
             </div>
         );
