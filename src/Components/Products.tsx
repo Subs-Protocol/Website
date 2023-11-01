@@ -23,8 +23,8 @@ const Products = () => {
             As Subs protocol is a system that allows for the creation and management of subscription-based services on a blockchain. These services can take various forms, including Subscription, automated investing, peer to peer payments or many others.
           </p>
         </div>
-        <div className="flex flex-wrap w-full mt-8 ">
-          <div className=" flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+        <div className="flex flex-wrap w-full mt-8 justify-center">
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
               {/* <img src={Subslogo3} alt="hoobank" className="w-[50px] " /> */}
               <IconCalendarBolt size={40} color="white" />
@@ -44,7 +44,7 @@ const Products = () => {
               </button>
             </a>
           </div>
-          <div className=" flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
               {/* <img src={Subslogo3} alt="hoobank" className="w-[50px] " /> */}
               <IconSettingsAutomation size={40} color="white" />
@@ -64,7 +64,7 @@ const Products = () => {
               </button>
             </a>
           </div>
-          <div className=" flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
               {/* <img src={Subslogo3} alt="hoobank" className="w-[50px] " /> */}
               <IconCurrencyBitcoin size={40} color="white" />
@@ -84,7 +84,7 @@ const Products = () => {
               </button>
             </a>
           </div>
-          <div className=" flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
               {/* <img src={Subslogo3} alt="hoobank" className="w-[50px] " /> */}
               <IconBrandSpotify size={40} color="white" />
@@ -124,7 +124,7 @@ const Products = () => {
               </button>
             </a>
           </div>
-          <div className="mt-8 flex flex-col  justify-center items-center bg-white  rounded-lg px-6 shadow-xl mr-3">
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <h3 className="text-black text-center text-[18px]  tracking-tight">
               The choice is yours
             </h3>
