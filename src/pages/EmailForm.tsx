@@ -17,8 +17,6 @@ class EmailForm extends Component {
                     <Footer />
                 </div>
             </div>
-
-
         </div>
     );
 }};

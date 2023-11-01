@@ -5,10 +5,13 @@ import { VitePluginRadar } from 'vite-plugin-radar'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),
-    VitePluginRadar({
-      // Google Analytics tag injection
-      analytics: {
-        id: 'G-GKYJ47J79D',
-      },
-    })],
+  VitePluginRadar({
+    // Google Analytics tag injection
+    analytics: {
+      id: 'G-GKYJ47J79D',
+    },
+  })],
+  server: {
+    host: true
+  },
 })

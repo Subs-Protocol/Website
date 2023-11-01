@@ -11,14 +11,14 @@ function App() {
     
     <Router>
       <Routes>
-        
         <Route path='/' element={<HomePage />} />
+        <Route path='/*' element={<HomePage />} />
         <Route path='/products' element={<ProductPage />} />
-        <Route path='/regulator' element={<RegulatorPage />} />
         <Route path='/faq' element={<FAQPage />} />
-        <Route path='/usecases' element={<UseCasePage />} />
+        {/* <Route path='/usecases' element={<UseCasePage />} /> */}
         <Route path='/docs' element={<DocsPage />} />
         <Route path='/form' element={< EmailForm />} />
+        <Route path='/*' element={<HomePage />} />
         {/* <Route path='/whitepaper' element={<WhitePaperPage />} /> */}
       </Routes>
     </Router>

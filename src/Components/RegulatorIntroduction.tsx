@@ -6,12 +6,11 @@ const RegulatorIntroduction = () => {
         <section>
 
 
-            <div className="py-24 sm:py-20">
+            {/* <div className="py-24 sm:py-20">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:text-center">
-                        <h2 className="text-base text-xl font-semibold leading-7 text-cyan-200">They keep the protocol alive</h2>
-                        <p className="mt-2 text-5xl font-bold tracking-tight text-gradient sm:text-8xl p-3">
-                        
+                        <h2 className="text-base text-xl font-semibold leading-7 text-secondary">They keep the protocol alive</h2>
+                        <p className="mt-2 text-5xl font-bold tracking-tight text-secondary sm:text-8xl p-3">
                             Regulators
                         </p>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -49,7 +48,7 @@ const RegulatorIntroduction = () => {
                     </div>
                 </div>
                 
-            </div>
+            </div> */}
         </section>
     );
 };
