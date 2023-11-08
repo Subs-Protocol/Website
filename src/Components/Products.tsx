@@ -19,7 +19,7 @@ const Products = () => {
           Uses cases <br className="sm:block hidden" />{" "}
         </h1>
         <div className="flex w-[80%]">
-          <p className="text-center mt-6 text-lg leading-8 text-black">
+        <p className="mt-6 text-center text-lg leading-8 text-gray-600">
             As Subs protocol is a system that allows for the creation and management of subscription-based services on a blockchain. These services can take various forms, including Subscription, automated investing, peer to peer payments or many others.
           </p>
         </div>
