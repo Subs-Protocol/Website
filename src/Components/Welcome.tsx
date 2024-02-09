@@ -40,7 +40,7 @@ const Welcome = () => {
           </h1>
         </div>
         <div className="flex">
-          <a className="justify-center items-center mt-8" href="https://app.subsprotocol.com" target="_blank">
+          <a className="justify-center items-center mt-8" href="https://testnet.subsprotocol.com" target="_blank">
             <button className="flex py-3 px-5 font-poppins font-medium text-[18px] text-white bg-secondary rounded-full outline-none">
               <p>  Launch App </p>
               <IconBrandAppstore size={28} className="ml-1" />
@@ -53,7 +53,6 @@ const Welcome = () => {
             </button>
           </a>
         </div>
-
       </div>
     </section>
   );
