@@ -6,15 +6,14 @@ const RegulatorIntroduction = () => {
         <section>
 
 
-            <div className="py-24 sm:py-20">
+            {/* <div className="py-24 sm:py-20">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:text-center">
-                        <h2 className="text-base text-xl font-semibold leading-7 text-indigo-600">They keep the protocol alive</h2>
-                        <p className="mt-2 text-5xl font-bold tracking-tight text-gradient sm:text-8xl p-3">
-                        
+                        <h2 className="text-base text-xl font-semibold leading-7 text-secondary">They keep the protocol alive</h2>
+                        <p className="mt-2 text-5xl font-bold tracking-tight text-secondary sm:text-8xl p-3">
                             Regulators
                         </p>
-                        <p className="mt-2 text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-100 sm:text-4xl">
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                         
                             The detail that makes us totally different
                         </p>
@@ -30,7 +29,7 @@ const RegulatorIntroduction = () => {
                             {features.map((feature) => (
                                 <div key={feature.name} className="relative pl-16">
                                     <dt className="text-base font-semibold leading-7 text-white">
-                                        <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                                        <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-400">
                                             <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                                         </div>
                                         {feature.name}
@@ -49,7 +48,7 @@ const RegulatorIntroduction = () => {
                     </div>
                 </div>
                 
-            </div>
+            </div> */}
         </section>
     );
 };

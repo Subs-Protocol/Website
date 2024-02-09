@@ -15,12 +15,14 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <a href="https://app.subsprotocol.com">
       <button
         type="button"
-        className={`py-4 px-6 font-poppins font-medium text-[18px] text-white menu-transition mx-4 cursor-pointer  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-lg cursor-pointer hover:bg-[#2546bd]`}
+        className={`py-4 px-6 font-poppins font-medium text-[18px] menu-transition mx-4 cursor-pointer bg-blue-gradient text-black rounded-lg cursor-pointer hover:bg-[#2546bd]`}
       >
         Get Started
       </button>
+      </a>
     </div>
   </section>
 );

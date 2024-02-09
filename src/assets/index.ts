@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./subs-logo.png";
+import logo from "./log.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -26,12 +26,12 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import extensionLogo from "./extensionLogo.png"
-import personalSubsCopie from "./personalSubs Copie 2.png";
-import buttonPreview from "./buttonPreview.png";
+import personalSubsCopie from "./personal.png";
+import buttonPreview from "./components.png";
 import postInstagram from "./postInstagram.jpg";
 import Subs_Protocol_Whitepaper from "./Subs_Protocol_Whitepaper.pdf";
-import Subslogo2 from "./Subslogo2.png";
-import Subslogo3 from "./Subslogo3.png";
+import Subslogo2 from "./log.png";
+import Subslogo3 from "./log.png";
 
 
 export {

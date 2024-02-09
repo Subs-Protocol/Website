@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, medium, twitter, telegram, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets/index";
+import { IconMoneybag } from "@tabler/icons-react";
+import { people01, people02, people03, facebook, instagram, linkedin, medium, twitter, telegram, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets/index";
 import {
   BoltIcon,
   CloudArrowUpIcon,
@@ -17,16 +18,20 @@ import {
 export const navLinks = [
   {
     id: "/#component",
-    title: "Subs Products",
+    title: "Uses cases",
+  },
+  {
+    id: "/#integration",
+    title: "Integrations",
   },
   // {
   //   id: "/usecases",
   //   title: "Use Cases",
   // },
-  {
-    id: "/regulator",
-    title: "Regulators",
-  },
+  // {
+  //   id: "/regulator",
+  //   title: "Regulators",
+  // },
   {
     id: "/faq",
     title: "FAQ",
@@ -66,9 +71,9 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "That's exactly what the industry needs. Bring Web2 tools to Web3",
+      "That's exactly what the industry needs. I'm sure it will be a success.",
     name: "Alix B.",
-    title: "Account Manager France",
+    title: "Account Manager Kraken",
     img: people01,
   },
   {
@@ -76,7 +81,7 @@ export const feedback = [
     content:
       "It's one of the best ways to make people use and adopt crypto on a large scale.",
     name: "Yehor B.",
-    title: "Stealth Startup Co-Founder",
+    title: "Partner at Afford capital",
     img: people02,
   },
   {
@@ -105,66 +110,87 @@ export const stats = [
     title: "Crytpo users yearly growth",
     value: ">10%",
   },
-  
+
 ];
 
 export const footerLinks = [
   {
+    title: "Protocol",
+    links: [
+      {
+        name: "Whitepaper",
+        link: "https://subsprotocol.com/assets/Subs_Protocol_Whitepaper-a15e8bea.pdf",
+      },
+      {
+        name: "Uses cases",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases",
+      },
+      {
+        name: "Deployments",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/deployments/testnets",
+      },
+      {
+        name: "Regulators",
+        link: "https://subsprotocol.com/#/regulator",
+      }
+    ],
+  },
+  {
+    title: "Earn With Subs",
+    links: [
+      {
+        name: "Book a demo",
+        link: "https://8k8rqdbzasv.typeform.com/to/cYOREWEy",
+      },
+      {
+        name: "Create your plan",
+        link: "https://app.subsprotocol.com/#/app/default/create",
+      },
+      {
+        name: "How to earn",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/how-it-works/earn-with-subs",
+      },
+      {
+        name: "Plan example",
+        link: "https://app.subsprotocol.com/#/0xD3C509e32983ffA469d48863CBBB275BD885E891/mumbai_2/",
+      }
+    ],
+  },
+  {
+    title: "Developers",
+    links: [
+      {
+        name: "Apps Contracts",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/apps-contracts",
+      },
+      {
+        name: "Subscriptions Contracts",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/subscription-contracts",
+      },
+      {
+        name: "API",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/api",
+      },
+      {
+        name: "Package",
+        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/subs-widget",
+      },
+    ]
+  },
+  {
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "The team",
+        link: "https://www.linkedin.com/search/results/people/?currentCompany=%5B%2291115065%22%5D&origin=COMPANY_PAGE_CANNED_SEARCH&sid=6j~",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Contact us",
+        link: "/#/form",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "subs@subsprotocol.com",
+        link: "",
       },
     ],
   },
@@ -214,16 +240,16 @@ export const clients = [
 
 export const subsComponents = [
   {
-    name: "Plug and Play.",
+    name: "Create your plans.",
     description:
-      "Simply download our packages or plugins and deploy it in your code.",
-    icon: BoltIcon,
+      "Create a complex subscription plan in a few clicks. You can set the price, the duration, the frequency and the number of payments.",
+    icon: CommandLineIcon,
   },
   {
-    name: "Utilize our APIs.",
+    name: "Plug and Play.",
     description:
-      "Create plans and collect your funds automatically through our set of APIs.",
-    icon: CommandLineIcon,
+      "Simply download our packages or plugins and deploy it in your code. Everything is ok, just sit back and got recurring revenue directly in your wallet.",
+    icon: BoltIcon,
   },
   {
     name: "Draw new customers.",
@@ -241,9 +267,9 @@ export const personalSubs = [
     icon: UserGroupIcon,
   },
   {
-    name: "Subscribe in 2 clicks.",
+    name: "Subscribe in 1 click.",
     description:
-      "It's super fast. Connect your wallet and approve the subscription.",
+      "For your users, it's super fast. They just have to connect their wallet and approve the subscription.",
     icon: FireIcon,
   },
   {
@@ -252,6 +278,12 @@ export const personalSubs = [
       "Add your page link on your favorite social media, anywhere you want.",
     icon: ShareIcon,
   },
+  {
+    name: "Earn money",
+    description:
+      "Take a rest, every period the funds are taken directly from the user's wallet and sent back to your wallet.",
+    icon: IconMoneybag,
+  }
 ];
 
 export const subsExtensions = [
