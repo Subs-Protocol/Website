@@ -119,7 +119,7 @@ export const footerLinks = [
     links: [
       {
         name: "Whitepaper",
-        link: "https://subsprotocol.com/assets/Subs_Protocol_Whitepaper-a15e8bea.pdf",
+        link: "https://subsprotocol.com/assets/Subs_Protocol_Whitepaper-f476f50d.pdf",
       },
       {
         name: "Uses cases",
@@ -128,10 +128,6 @@ export const footerLinks = [
       {
         name: "Deployments",
         link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/deployments/testnets",
-      },
-      {
-        name: "Regulators",
-        link: "https://subsprotocol.com/#/regulator",
       }
     ],
   },
@@ -140,7 +136,7 @@ export const footerLinks = [
     links: [
       {
         name: "Book a demo",
-        link: "https://8k8rqdbzasv.typeform.com/to/cYOREWEy",
+        link: "https://forms.gle/EKGG83TKafZJ95Zx6",
       },
       {
         name: "Create your plan",
@@ -152,7 +148,7 @@ export const footerLinks = [
       },
       {
         name: "Plan example",
-        link: "https://app.subsprotocol.com/#/0xD3C509e32983ffA469d48863CBBB275BD885E891/mumbai_2/",
+        link: "https://testnet.subsprotocol.com/#/0xDEd399C85d29b284ab92fA16915eFcD9dEEd77b9/bsct_4",
       }
     ],
   },
@@ -172,7 +168,7 @@ export const footerLinks = [
         link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/api",
       },
       {
-        name: "Package",
+        name: "Widget",
         link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/subs-widget",
       },
     ]

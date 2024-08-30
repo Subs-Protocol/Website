@@ -24,7 +24,7 @@ class HomePage extends Component {
         <div className={`${styles.boxWidth}`}>
           <Products />
           <Subsproducts />
-          <Feedback />
+          {/* <Feedback /> */}
           <Footer />
         </div>
       </div>

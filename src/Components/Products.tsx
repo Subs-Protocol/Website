@@ -3,7 +3,7 @@ import styles from "../styles/style";
 import { Subslogo3 } from "../assets";
 import { HashLink as BetterLink } from 'react-router-hash-link';
 import { Text } from "@mantine/core";
-import { IconBrandSpotify, IconCalendarBolt, IconCurrencyBitcoin, IconHeartHandshake, IconSettingsAutomation } from "@tabler/icons-react";
+import { IconBrandSpotify, IconCalendarBolt, IconCreditCard, IconCurrencyBitcoin, IconHeartHandshake, IconSettingsAutomation } from "@tabler/icons-react";
 
 
 const Products = () => {
@@ -19,8 +19,8 @@ const Products = () => {
           Uses cases <br className="sm:block hidden" />{" "}
         </h1>
         <div className="flex w-[80%]">
-        <p className="mt-6 text-center text-lg leading-8 text-gray-600">
-            As Subs protocol is a system that allows for the creation and management of subscription-based services on a blockchain. These services can take various forms, including Subscription, automated investing, peer to peer payments or many others.
+          <p className="mt-6 text-center text-lg leading-8 text-gray-600">
+            As Subs is a system that allows the creation and management of recurring payments on blockchains, These services can take various forms, including Subscription, automated investing, peer to peer payments or many others.
           </p>
         </div>
         <div className="flex flex-wrap w-full mt-8 justify-center">
@@ -93,7 +93,7 @@ const Products = () => {
               Content Services
             </h3>
             <p className="text-black text-center mt-4 text-md">
-              Allow your users to allow their customers to subscribe to their content with Subs.
+              Monetize your discord, telegram channel or others with Subs.
             </p>
             <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
               <button
@@ -114,6 +114,26 @@ const Products = () => {
             </h3>
             <p className="text-black text-center mt-4 text-md">
               Use Subs to collect recurring donations transparently
+            </p>
+            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
+              <button
+                type="button"
+                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
+              >
+                Learn more
+              </button>
+            </a>
+          </div>
+          <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
+            <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
+              {/* <img src={Subslogo3} alt="hoobank" className="w-[50px] " /> */}
+              <IconCreditCard size={40} color="white" />
+            </span>
+            <h3 className="text-black text-center text-[22px] mt-5 text-base font-medium tracking-tight">
+              Payment Split
+            </h3>
+            <p className="text-black text-center mt-4 text-md">
+              Buy now, pay later, split payments with Subs
             </p>
             <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
               <button
