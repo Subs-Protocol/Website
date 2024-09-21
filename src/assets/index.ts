@@ -27,6 +27,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import extensionLogo from "./extensionLogo.png"
 import personalSubsCopie from "./personal.png";
+import lastPage from "./lastPage.png";
 import buttonPreview from "./components.png";
 import postInstagram from "./postInstagram.jpg";
 import Subs_Protocol_Whitepaper from "./Subs_Protocol_Whitepaper.pdf";
@@ -40,6 +41,7 @@ export {
   binance,
   card,
   coinbase,
+  lastPage,
   dropbox,
   logo,
   quotes,

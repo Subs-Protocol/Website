@@ -35,14 +35,7 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               Create no-code customized subscription services using Subs.
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/subscription" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+           
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
@@ -55,14 +48,7 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               You can use Subs protocol to create fully DCA protocol easily.
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+            
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
@@ -75,14 +61,7 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               Make a recurring payment or be paid recurrently with subs
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+       
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
@@ -95,14 +74,7 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               Monetize your discord, telegram channel or others with Subs.
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+           
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
@@ -115,14 +87,7 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               Use Subs to collect recurring donations transparently
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+          
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <span className="px-2 py-2 items-center justify-center bg-secondary rounded-full shadow-lg">
@@ -135,27 +100,13 @@ const Products = () => {
             <p className="text-black text-center mt-4 text-md">
               Buy now, pay later, split payments with Subs
             </p>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                Learn more
-              </button>
-            </a>
+          
           </div>
           <div className="mt-8 flex flex-col max-w-[300px] justify-center items-center bg-white  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mr-3">
             <h3 className="text-black text-center text-[18px]  tracking-tight">
               The choice is yours
             </h3>
-            <a href="https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases" target="_blank">
-              <button
-                type="button"
-                className={`menu-transition mx-4 cursor-pointer flex flex-row justify-center items-center text-white bg-secondary text-black  px-8 py-2 rounded-lg cursor-pointer hover:bg-[#2546bd] mt-4`}
-              >
-                See all use cases
-              </button>
-            </a>
+           
           </div>
         </div>
       </div>

@@ -32,10 +32,10 @@ export const navLinks = [
   //   id: "/regulator",
   //   title: "Regulators",
   // },
-  {
-    id: "/faq",
-    title: "FAQ",
-  },
+  // {
+  //   id: "/faq",
+  //   title: "FAQ",
+  // },
   // {
   //   id: "/docs",
   //   title: "Docs",
@@ -236,49 +236,37 @@ export const clients = [
 
 export const subsComponents = [
   {
-    name: "Create your plans.",
+    name: "Interaction with Existing Contract.",
     description:
-      "Create a complex subscription plan in a few clicks. You can set the price, the duration, the frequency and the number of payments.",
+      "Developers can use the SDK to call predefined methods on these contracts, such as creating new subscriptions, processing payments, managing renewals, and handling cancellations.",
     icon: CommandLineIcon,
   },
   {
-    name: "Plug and Play.",
+    name: "Flexible Subscription Logic.",
     description:
-      "Simply download our packages or plugins and deploy it in your code. Everything is ok, just sit back and got recurring revenue directly in your wallet.",
+      "The SDK allows businesses to interact with existing logic for various subscription models, such as fixed-term, recurring, or usage-based subscriptions. The flexibility of the system enables customization without altering the underlying contract.",
     icon: BoltIcon,
   },
   {
-    name: "Draw new customers.",
+    name: "Subs SDK with API",
     description:
-      "Imagine being the first in your industry to accept crypto as a subscription method.",
+      "Businesses can use the SDK to interact with the API to fetch detailed information about subscriptions, such as the next payment date, the status of a subscription, or the tokens being used for payment.",
     icon: UserPlusIcon,
   },
 ];
 
 export const personalSubs = [
   {
-    name: "For everyone.",
+    name: "User redirection.",
     description:
-      "Simply connect your wallet to the site, create your plans and start building your page.",
+      "Simply redirect your users to the Subs platform, where they can easily subscribe, view, or manage their subscriptions",
     icon: UserGroupIcon,
   },
   {
-    name: "Subscribe in 1 click.",
+    name: "Subscription Management",
     description:
-      "For your users, it's super fast. They just have to connect their wallet and approve the subscription.",
+      "Manage subsription with a simple interface, and get a clear view of your revenue and your subscribers.",
     icon: FireIcon,
-  },
-  {
-    name: "Share it with the world.",
-    description:
-      "Add your page link on your favorite social media, anywhere you want.",
-    icon: ShareIcon,
-  },
-  {
-    name: "Earn money",
-    description:
-      "Take a rest, every period the funds are taken directly from the user's wallet and sent back to your wallet.",
-    icon: IconMoneybag,
   }
 ];
 

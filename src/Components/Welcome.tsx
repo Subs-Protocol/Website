@@ -34,25 +34,11 @@ const Welcome = () => {
           className={`${styles.flexCenter} justify-center items-center w-full`}
         >
           <h1 className="justify-center text-center items-center font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
-            NoCode Recurring Crypto  <br className="sm:block hidden" />{" "}
+          SDK for recurring payment on <br className="sm:block hidden" />{" "}
             <span className={`${styles.flexCenter} text-center text-secondary`}>
-              Payment Solution
+               Stellar
             </span>{" "}
           </h1>
-        </div>
-        <div className="flex">
-          <a className="ml-8 justify-center items-center mt-8" href="https://forms.gle/EKGG83TKafZJ95Zx6" target="_blank">
-            <button className="flex py-3 px-5 font-poppins font-medium text-[18px] text-white bg-black rounded-full outline-none">
-              <p>  Book Demo </p>
-              <IconNfc size={28} className="ml-1" />
-            </button>
-          </a>
-          <a className="ml-8 justify-center items-center mt-8" href="https://testnet.subsprotocol.com/#/0xDEd399C85d29b284ab92fA16915eFcD9dEEd77b9/bsct_4" target="_blank">
-            <button className="flex py-3 px-5 font-poppins font-medium text-[18px] text-white bg-secondary rounded-full outline-none">
-              <p>  Example Plan </p>
-              <IconBrandPaypay size={28} className="ml-1" />
-            </button>
-          </a>
         </div>
       </div>
     </section>

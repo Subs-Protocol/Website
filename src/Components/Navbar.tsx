@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-import { HashLink as BetterLink } from 'react-router-hash-link';
+import { Link } from "react-router-dom";
+import { HashLink as BetterLink } from "react-router-hash-link";
 
 import { close, logo, menu, Subs_Protocol_Whitepaper } from "../assets";
 import { navLinks } from "../constants";
@@ -23,22 +23,35 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-secondary" : "text-black"
-              } ${index === navLinks.length - 1 ? "mr-10" : "mr-10"}`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+              active === nav.title ? "text-secondary" : "text-black"
+            } ${index === navLinks.length - 1 ? "mr-10" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
             <BetterLink to={`${nav.id}`}>{nav.title}</BetterLink>
           </li>
         ))}
         <li>
-          <a className="text-black font-poppins font-normal cursor-pointer text-[16px] mr-10" href="https://subspro.gitbook.io/" target='_blank' rel='noopener noreferrer'> Documentation </a>
-        </li>
-        <li>
-          <a className="text-black font-poppins font-normal cursor-pointer text-[16px] mr-10" href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
+          <a
+            className="text-black font-poppins font-normal cursor-pointer text-[16px] mr-10"
+            href="https://docs.google.com/document/d/1sfMrphotsnK_qAgITtpvgak7Eb7RUjlcgcmQ8V1yDG0/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Architecture{" "}
+          </a>
         </li>
       </ul>
-      <a className="justify-center items-center" href="https://app.subsprotocol.com" target="_blank">
-        <button className="py-2 px-6 font-poppins font-medium text-[18px] text-white bg-secondary rounded-[10px] outline-none"> Get Started</button>
+      <a
+        className="justify-center items-center"
+        href="#"
+        target="_blank"
+      >
+        <button className="py-2 px-6 font-poppins font-medium text-[18px] text-white bg-secondary rounded-[10px] outline-none">
+          {" "}
+          Soon
+        </button>
       </a>
       <div className="sm:hidden inset-y-0 right-0">
         <img
@@ -49,33 +62,38 @@ const Navbar = () => {
         />
 
         <div
-          className={`${!toggle ? "hidden" : "flex"
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          className={`${
+            !toggle ? "hidden" : "flex"
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
-                  } ${index === navLinks.length - 1 ? "mb-4" : "mb-4"}`}
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  active === nav.title ? "text-white" : "text-dimWhite"
+                } ${index === navLinks.length - 1 ? "mb-4" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li className="mb-4">
-              <a className="text-dimWhite font-poppins font-normal cursor-pointer text-[16px] mb-4" href="https://subsprotocol1s-organization.gitbook.io/subs/" target='_blank' rel='noopener noreferrer'> Documentation </a>
-            </li>
             <li>
-              <a className="text-dimWhite font-poppins font-normal cursor-pointer text-[16px] " href={Subs_Protocol_Whitepaper} target='_blank' rel='noopener noreferrer'> Whitepaper </a>
+              <a
+                className="text-black font-poppins font-normal cursor-pointer text-[16px] mr-10"
+                href="https://docs.google.com/document/d/1sfMrphotsnK_qAgITtpvgak7Eb7RUjlcgcmQ8V1yDG0/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Architecture{" "}
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
   );
 };
 
 export default Navbar;
-
