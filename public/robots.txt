@@ -1,0 +1,22 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://subsprotocol.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /internal/
+
+# Allow important directories
+Allow: /use-cases/
+Allow: /integrations/
+Allow: /docs/
+Allow: /how-it-works/
+Allow: /faq/
+
+# Crawl delay
+Crawl-delay: 10 
