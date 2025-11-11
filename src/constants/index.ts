@@ -119,19 +119,15 @@ export const footerLinks = [
     links: [
       {
         name: "Whitepaper",
-        link: "https://subsprotocol.com/assets/Subs_Protocol_Whitepaper-a15e8bea.pdf",
+        link: "https://subsprotocol.com/assets/Subs_Protocol_Whitepaper-f476f50d.pdf",
       },
       {
         name: "Uses cases",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/introduction/uses-cases",
+        link: "https://docs.subsprotocol.com/introduction/uses-cases",
       },
       {
         name: "Deployments",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/deployments/testnets",
-      },
-      {
-        name: "Regulators",
-        link: "https://subsprotocol.com/#/regulator",
+        link: "https://docs.subsprotocol.com/deployments/chains",
       }
     ],
   },
@@ -140,7 +136,7 @@ export const footerLinks = [
     links: [
       {
         name: "Book a demo",
-        link: "https://8k8rqdbzasv.typeform.com/to/cYOREWEy",
+        link: "https://forms.gle/EKGG83TKafZJ95Zx6",
       },
       {
         name: "Create your plan",
@@ -148,11 +144,11 @@ export const footerLinks = [
       },
       {
         name: "How to earn",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/how-it-works/earn-with-subs",
+        link: "https://docs.subsprotocol.com/how-it-works/earn-with-subs",
       },
       {
         name: "Plan example",
-        link: "https://app.subsprotocol.com/#/0xD3C509e32983ffA469d48863CBBB275BD885E891/mumbai_2/",
+        link: "https://checkout.subsprotocol.com/#/testnet?owner=0xDEd399C85d29b284ab92fA16915eFcD9dEEd77b9&chain=bsct&appId=4",
       }
     ],
   },
@@ -161,19 +157,19 @@ export const footerLinks = [
     links: [
       {
         name: "Apps Contracts",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/apps-contracts",
+        link: "https://docs.subsprotocol.com/developer-docs/apps-contracts",
       },
       {
         name: "Subscriptions Contracts",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/subscription-contracts",
+        link: "https://docs.subsprotocol.com/developer-docs/subscription-contracts",
       },
       {
         name: "API",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/api",
+        link: "https://docs.subsprotocol.com/developer-docs/api",
       },
       {
-        name: "Package",
-        link: "https://subsprotocol1s-organization.gitbook.io/subs-protocol/developer-docs/subs-widget",
+        name: "Widget",
+        link: "https://docs.subsprotocol.com/developer-docs/subs-widget",
       },
     ]
   },
@@ -189,7 +185,7 @@ export const footerLinks = [
         link: "/#/form",
       },
       {
-        name: "subs@subsprotocol.com",
+        name: "support@subsprotocol.com",
         link: "",
       },
     ],
@@ -200,12 +196,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: medium,
-    link: "https://medium.com/@subsprotocol1",
+    link: "https://medium.com/@subsprotocol",
   },
   {
     id: "social-media-2",
     icon: telegram,
-    link: "https://t.me/+5VRisLxgM3NiNjk0",
+    link: "https://t.me/subsprotocol",
   },
   {
     id: "social-media-3",
@@ -215,7 +211,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com//company/subsprotocol",
+    link: "https://www.linkedin.com/company/subsprotocol",
   },
 ];
 
